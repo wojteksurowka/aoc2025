@@ -1,11 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int eol(char c)
-{
-    return !c || c == '\n';
-}
-
 int find(int width)
 {
     FILE* fp = fopen("in03.txt", "r");
